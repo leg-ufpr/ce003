@@ -1,0 +1,20 @@
+---
+title: "Notas"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+```
+
+### CE003-09B-Geologia
+
+
+### CE003 (39A-Nutrição) e CE009 (23A - Eng. Ambiental)
+
+  

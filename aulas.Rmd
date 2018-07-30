@@ -1,0 +1,66 @@
+---
+title: "Cronograma das aulas do curso"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+Abaixo está o cronograma inicial planejado para a disciplina. (Pode
+sofrer alterações).
+
+- **Semana 01** - 30/07 a 04/08: 
+    - **aula 01**: Apresentação da disciplina
+    - **aula 02**: (1) Introdução à análise exploratória de dados
+- **Semana 02** - 06/08 a 11/08:
+    - **aula 03**: Exercícios.
+    - **aula 04**: Revisão. S1
+- **Semana 03** - 13/08 a 18/08**:
+   - **aula 05**: (2) Probabilidades
+   - **aula 06**: Exercícios 
+- **Semana 04** - 20/08 a 25/08: 
+   - **aula 07**: Revisão. S2
+   - **aula 08**: (3) Variáveis aleatórias discretas
+- **Semana 05** - 27/08 a 01/09:
+   - **aula 09**: Exercícios
+   - **aula 10**: Revisão 
+- **Semana 06** - 03/09 a 08/09:
+   - **aula 11**: **Avaliação 1**
+   - **aula 12**: 
+- **Semana 07**  - 10/09 a 15/09:
+   - **aula 13**:  (4) Medidas resumo
+   - **aula 14**: Exercícios
+- **Semana 08** - 17/09 a 22/09:
+   - **aula 15**: Revisão. S3
+   - **aula 16**: (5) Variáveis bidimensionais
+- **Semana 09**: 24/09 a 29/09:
+   - **aula 17**: Exercícios
+   - **aula 18**: Revisão. S4
+- **Semana 10** - 01/10 a 06/10:
+   - **aula 19**: (6) Variáveis aleatórias contínuas
+   - **aula 20**: Exercícios.
+- **Semana 11** - 08/10 a 11/10:
+   - **aula 21**: Revisão. 
+   - **aula 22**: **Avaliação 2** 
+- **Semana 12** - 15/10 a 20/10:
+   - **aula 23**: (7) Inferência estatística - estimação (A):
+  propriedades e distribuições amostrais.
+   - **aula 24**: Exercícios. S5
+- **Semana 13**: 22/10 a 27/10:
+   - **aula 25**: (7) Inferência estatística - estimação (B): estimação
+  por intervalo.
+   - **aula 26**: Exercícios. S6
+- **Semana 14** - 29/10 a 01/11:
+   - **aula 27**: (8) Inferência estatística - testes de hipótese.
+   - **aula 28**: Exercícios. S7
+- **Semana 15** - 12/11 a 14/11:
+   - **aula 29**: (9) Tópicos especiais.
+   - **aula 30**: Exercícios.
+- **Semana 16** - 19/11 a 24/11
+   - **aula 31**: Avaliação 3
+
+
+## Exercícios

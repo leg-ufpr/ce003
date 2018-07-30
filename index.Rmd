@@ -1,0 +1,70 @@
+---
+title: "CE003 - Estatística II"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+[![Build Status](https://travis-ci.org/leg-ufpr/ce003.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce003)
+
+
+# Detalhes da oferta da disciplina
+
+- **Cursos:**
+  - Geologia (09B)
+  - Nutrição (39A) e Eng. Ambiental (23A)
+
+- **Período:** segundo semestre de 2018
+- **Professores Responsáveis:**
+  - [Elias Teixeira Krainski][], [LEG][]/DEST/UFPR
+  - [Fernando de Pol Mayer][], [LEG][]/DEST/UFPR
+- **Horários e Locais:**
+  - Geologia (09B):
+    - Segunda, 07:30 - 09:30h, **PF-06**
+    - Quarta, 09:30 - 11:30h, **PF-06**
+  - Nutrição (39A) e Eng. Ambiental (23A):
+    - Terça, 09:30 - 11:10h, **PG01**
+    - Quinta, 09:30 - 11:10h, **PG01**
+
+- **Horários de atendimento dos professores:**
+    - Segundas: 9:30 as 11:30 (preferenciais). Outros horários
+      podem ser agendados previamente.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+- **Avaliação**: 
+  - sabatinas, aplicadas ao final de um módulo da disciplina
+     - _sabatinas são provas menores, e com conteúdo específico_
+     - O número de sabatinas em um semestre pode variar conforme o
+  andamento da disciplina (geralmente entre 6 e 10)
+  - Três avaliações
+  - A média final será a média das 75% maiores notas (as 25% menores
+  notas serão descartadas) das sabatinas + a soma das três avaliações 
+  dividido por 4
+  - **Importante**: nas sabatinas não há segunda chamada. Ao perder
+  uma sabatina, a nota é 0, e automaticamente estará dentro das 25%
+  menores notas que serão excluídas para o cálculo da média final
+- **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
+    - **30/07**: Início do semestre letivo
+    - **03/12**: Final do semestre letivo
+    - **10/12 a 15/12**: Período de exames
+
+# Programa/objetivos da disciplina
+
+O objetivo desta disciplina é capacitar os alunos em conceitos básicos
+de estatística que permitam a interpretação de resultados de análises e
+procedimentos estatísticos, bem como a execução de procedimentos e
+análises estatística básicas. O curso compreende três grandes tópicos:
+
+- Análise descritiva e exploratória de dados
+- Noções de probabilidades e distribuições de probabilidades
+- Introdução à procedimentos de inferência estatística
+
+<!-- links -->
+
+[Elias Teixeira Krainski]: http://www.leg.ufpr.br/~elias/
+[Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
+[LEG]: http://www.leg.ufpr.br
+[Resolução 30/17 - CEPE]: http://www.est.ufpr.br/calendario/cepe3017.pdf
