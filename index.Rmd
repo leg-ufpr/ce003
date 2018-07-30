@@ -36,16 +36,17 @@ source("setup_knitr.R")
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
 - **Avaliação**: 
   - sabatinas, aplicadas ao final de um módulo da disciplina
-     - _sabatinas são provas menores, e com conteúdo específico_
-     - O número de sabatinas em um semestre pode variar conforme o
-  andamento da disciplina (geralmente entre 6 e 10)
-  - Três avaliações
-  - A média final será a média das 75% maiores notas (as 25% menores
-  notas serão descartadas) das sabatinas + a soma das três avaliações 
-  dividido por 4
-  - **Importante**: nas sabatinas não há segunda chamada. Ao perder
-  uma sabatina, a nota é 0, e automaticamente estará dentro das 25%
-  menores notas que serão excluídas para o cálculo da média final
+  _sabatinas são provas menores, e com conteúdo específico_
+     - O número de sabatinas pode variar conforme o
+  andamento da disciplina (programadas 7 para o corrente semestre)
+     - Somar o número de pontos nas cinco sabatinas com maior 
+  número de pontos (cada sabatina vale 20 pontos)
+     - Não há segunda chamada de sabatinas. Ao perder uma sabatina, 
+  a nota é 0, e automaticamente estará dentro das duas menores notas 
+  excluídas para o cálculo da média de sabatinas
+  - Três avaliações valendo 100 pontos cada uma
+  - Média final será a média das três maiores notas, considerando a média 
+  das sabatinas e das três avaliações
 - **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
     - **30/07**: Início do semestre letivo
     - **03/12**: Final do semestre letivo
