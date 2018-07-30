@@ -44,9 +44,9 @@ source("setup_knitr.R")
      - Não há segunda chamada de sabatinas. Ao perder uma sabatina, 
   a nota é 0, e automaticamente estará dentro das duas menores notas 
   excluídas para o cálculo da média de sabatinas
-  - Três avaliações valendo 100 pontos cada uma
-  - Média final será a média das três maiores notas, considerando a média 
-  das sabatinas e das três avaliações
+  - Duas avaliações valendo 100 pontos cada uma
+  - A nota será a média das duas maiores notas, considerando a média 
+  das sabatinas e das duas avaliações
 - **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
     - **30/07**: Início do semestre letivo
     - **03/12**: Final do semestre letivo
