@@ -22,8 +22,8 @@ sofrer alterações).
    - **aula 05**: (2) Probabilidades
    - **aula 06**: Exercícios 
 - **Semana 04** - 20/08 a 25/08: 
-   - **aula 07**: Revisão
-   - **aula 08**: Exercícios. **S2**
+   - **aula 07**: Exercícios. **S2** (Nutrição e Eng. Ambiental)
+   - **aula 08**: Exercícios. **S2** (Geologia)
 - **Semana 05** - 27/08 a 01/09:
    - **aula 09**: (3) Variáveis aleatórias discretas
    - **aula 10**: Exercícios 
@@ -64,7 +64,7 @@ sofrer alterações).
    - **aula 32**: Exercícios. **S8** (Geologia)
 - **Semana 17** - 26/11 a 01/12
    - **aula 33**: Revisão
-   - **aula 33**: **Avaliação 2**
+   - **aula 34**: **Avaliação 2**
 
 - **Semana 19**: 10/12 a 15/12:
    - **Exame final**
