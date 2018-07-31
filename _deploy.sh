@@ -8,8 +8,8 @@ set -e
 git config --global user.email "leg.ufpr@gmail.com"
 git config --global user.name "LEG UFPR"
 
-git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git site-ce001
-cd site-ce001
+git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git site-ce003
+cd site-ce003
 cp -r ../docs/* ./
 git add --all *
 git commit -m "The site is alive." || true
