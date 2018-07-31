@@ -11,7 +11,6 @@ source("setup_knitr.R")
 
 [![Build Status](https://travis-ci.org/leg-ufpr/ce003.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce003)
 
-
 # Detalhes da oferta da disciplina
 
 - **Cursos:**
@@ -32,18 +31,18 @@ source("setup_knitr.R")
     - Segundas: 9:30 as 11:30 (preferenciais). Outros horários
       podem ser agendados previamente.
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
-- **Avaliação**: 
+- **Avaliação**:
     - sabatinas, aplicadas ao final de um módulo da disciplina
    _sabatinas são provas menores, e com conteúdo específico_
         - O número de sabatinas pode variar conforme o
   andamento da disciplina (programadas 7 para o corrente semestre)
-        - Somar o número de pontos nas cinco sabatinas com maior 
+        - Somar o número de pontos nas cinco sabatinas com maior
   número de pontos (cada sabatina vale 20 pontos)
-        - Não há segunda chamada de sabatinas. Ao perder uma sabatina, 
-  a nota é 0, e automaticamente estará dentro das duas menores notas 
+        - Não há segunda chamada de sabatinas. Ao perder uma sabatina,
+  a nota é 0, e automaticamente estará dentro das duas menores notas
   excluídas para o cálculo da média de sabatinas
     - Duas avaliações valendo 100 pontos cada uma
-    - A nota será a média das duas maiores notas, considerando a média 
+    - A nota será a média das duas maiores notas, considerando a média
   das sabatinas e das duas avaliações
 - **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
     - **30/07**: Início do semestre letivo
