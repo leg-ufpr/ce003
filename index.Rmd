@@ -22,11 +22,11 @@ source("setup_knitr.R")
     - [Fernando de Pol Mayer][], [LEG][]/DEST/UFPR
 - **Horários e Locais:**
     - Geologia (09B):
-        - Segunda, 07:30 - 09:30h, **PF-06**
-        - Quarta, 09:30 - 11:30h, **PF-06**
+        - Segunda, 07:30 - 09:30h, **MULTIMIDIA-DEST**
+        - Quarta, 09:30 - 11:30h, **MULTIMIDIA-DEST**
     - Nutrição (39A) e Eng. Ambiental (23A):
-        - Terça, 09:30 - 11:10h, **PG01**
-        - Quinta, 09:30 - 11:10h, **PG01**
+        - Terça, 09:30 - 11:10h, **MULTIMIDIA-DEST**
+        - Quinta, 09:30 - 11:10h, **MULTIMIDIA-DEST**
 - **Horários de atendimento dos professores:**
     - Segundas: 9:30 as 11:30 (preferenciais). Outros horários
       podem ser agendados previamente.
