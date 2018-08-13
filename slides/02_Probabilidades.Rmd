@@ -529,7 +529,7 @@ Os eventos $A$ e $B$ são independentes?
 knitr::include_graphics("../img/independencia-crop.pdf")
 ```
 
-### Exemplo
+### Exemplo I1 (cont)
 
 **Pela definição intuitiva**:
 
