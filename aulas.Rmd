@@ -12,6 +12,8 @@ source("setup_knitr.R")
 Abaixo está o cronograma inicial planejado para a disciplina. (Pode
 sofrer alterações).
 
+## Escolha a aba de sua turma {.tabset}
+
 ### Geologia
 
 - **Semana 01** - 30/07 a 04/08: 

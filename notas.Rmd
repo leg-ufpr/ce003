@@ -12,6 +12,8 @@ source("setup_knitr.R")
 ## library(viridis)
 ```
 
+## Escolha a aba de sua turma {.tabset}
+
 ### CE003-09B-Geologia
 
 
