@@ -122,7 +122,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -143,6 +142,43 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
 </style>
 
 <script>
@@ -162,7 +198,6 @@ $(document).ready(function () {
   menuAnchor.closest('li.dropdown').addClass('active');
 });
 </script>
-
 
 <div class="container-fluid main-container">
 
@@ -347,6 +382,8 @@ $(document).ready(function () {
 
 
 <p>Abaixo está o cronograma inicial planejado para a disciplina. (Pode sofrer alterações).</p>
+<div id="geologia" class="section level3">
+<h3>Geologia</h3>
 <ul>
 <li><strong>Semana 01</strong> - 30/07 a 04/08:
 <ul>
@@ -365,7 +402,7 @@ $(document).ready(function () {
 </ul></li>
 <li><strong>Semana 04</strong> - 20/08 a 25/08:
 <ul>
-<li><strong>aula 07</strong>: Exercícios. <strong>S2</strong> (Nutrição e Eng. Ambiental)</li>
+<li><strong>aula 07</strong>: Exercícios.</li>
 <li><strong>aula 08</strong>: Exercícios. <strong>S2</strong> (Geologia)</li>
 </ul></li>
 <li><strong>Semana 05</strong> - 27/08 a 01/09:
@@ -405,12 +442,12 @@ $(document).ready(function () {
 <li><strong>Semana 13</strong> - 15/10 a 20/10:
 <ul>
 <li><strong>aula 21</strong>: Revisão.</li>
-<li><strong>aula 22</strong>: <strong>Avaliação 1</strong></li>
+<li><strong>aula 22</strong>: <strong>Avaliação 1</strong> (Cap. 1 a 5)</li>
 </ul></li>
 <li><strong>Semana 14</strong> - 22/10 a 27/10:
 <ul>
-<li><strong>aula 23</strong>: (7) Inferência estatística - estimação (A): propriedades e distribuições amostrais.</li>
-<li><strong>aula 24</strong>: (7) Inferência estatística - estimação (B): estimação por intervalo.</li>
+<li><strong>aula 23</strong>:</li>
+<li><strong>aula 24</strong>: (7) Inferência estatística - estimação (A): propriedades e distribuições amostrais.</li>
 </ul></li>
 <li><strong>Semana 13</strong>: 29/10 a 01/11:
 <ul>
@@ -419,18 +456,18 @@ $(document).ready(function () {
 </ul></li>
 <li><strong>Semana 14</strong> - 05/11 a 09/11:
 <ul>
-<li><strong>aula 27</strong>: (8) Inferência estatística - testes de hipótese.</li>
-<li><strong>aula 28</strong>: Exercícios. <strong>S7</strong></li>
+<li><strong>aula 27</strong>: (7) Inferência estatística - estimação (B): estimação por intervalo.</li>
+<li><strong>aula 28</strong>: (8) Inferência estatística - testes de hipótese.</li>
 </ul></li>
 <li><strong>Semana 15</strong> - 12/11 a 14/11:
 <ul>
-<li><strong>aula 29</strong>: (9) Tópicos especiais.</li>
-<li><strong>aula 30</strong>: Exercícios.</li>
+<li><strong>aula 29</strong>: <strong>S7</strong></li>
+<li><strong>aula 30</strong>: (9) Tópicos especiais. Exercícios.</li>
 </ul></li>
 <li><strong>Semana 16</strong> - 19/11 a 24/11
 <ul>
-<li><strong>aula 31</strong>: Exercícios. <strong>S8</strong> (Nutrição e Eng. Ambiental)</li>
-<li><strong>aula 32</strong>: Exercícios. <strong>S8</strong> (Geologia)</li>
+<li><strong>aula 31</strong>: Exercícios.</li>
+<li><strong>aula 32</strong>: <strong>S8</strong></li>
 </ul></li>
 <li><strong>Semana 17</strong> - 26/11 a 01/12
 <ul>
@@ -442,6 +479,105 @@ $(document).ready(function () {
 <li><strong>Exame final</strong></li>
 </ul></li>
 </ul>
+</div>
+<div id="nutricao-e-eng.-ambiental" class="section level3">
+<h3>Nutrição e Eng. Ambiental</h3>
+<ul>
+<li><strong>Semana 01</strong> - 30/07 a 04/08:
+<ul>
+<li><strong>aula 01</strong>: Apresentação da disciplina</li>
+<li><strong>aula 02</strong>: (1) Introdução à análise exploratória de dados</li>
+</ul></li>
+<li><strong>Semana 02</strong> - 06/08 a 11/08:
+<ul>
+<li><strong>aula 03</strong>: Exercícios.</li>
+<li><strong>aula 04</strong>: Exercícios. <strong>S1</strong></li>
+</ul></li>
+<li><strong>Semana 03</strong> - 13/08 a 18/08:
+<ul>
+<li><strong>aula 05</strong>: (2) Probabilidades</li>
+<li><strong>aula 06</strong>: Exercícios</li>
+</ul></li>
+<li><strong>Semana 04</strong> - 20/08 a 25/08:
+<ul>
+<li><strong>aula 07</strong>: Exercícios. <strong>S2</strong></li>
+<li><strong>aula 08</strong>: —</li>
+</ul></li>
+<li><strong>Semana 05</strong> - 27/08 a 01/09:
+<ul>
+<li><strong>aula 09</strong>: (3) Variáveis aleatórias discretas</li>
+<li><strong>aula 10</strong>: Exercícios</li>
+</ul></li>
+<li><strong>Semana 06</strong> - 03/09 a 08/09:
+<ul>
+<li><strong>aula 11</strong>: Exercícios. <strong>S3</strong></li>
+<li><strong>aula 12</strong>: (4) Medidas resumo</li>
+</ul></li>
+<li><strong>Semana 07</strong> - 10/09 a 15/09:
+<ul>
+<li><strong>aula 13</strong>: Exercícios</li>
+<li><strong>aula 14</strong>: Exercícios. <strong>S4</strong></li>
+</ul></li>
+<li><strong>Semana 08</strong> - 17/09 a 22/09:
+<ul>
+<li><strong>aula 15</strong>: (5) Variáveis bidimensionais</li>
+<li><strong>aula 16</strong>: Exercícios</li>
+</ul></li>
+<li><strong>Semana 09</strong>: 24/09 a 29/09:
+<ul>
+<li><strong>aula 17</strong>: Exercícios. <strong>S5</strong></li>
+<li><strong>aula 18</strong>: (6) Variáveis aleatórias contínuas</li>
+</ul></li>
+<li><strong>Semana 10</strong> - 01/10 a 06/10:
+<ul>
+<li><strong>SIEPE</strong></li>
+</ul></li>
+<li><strong>Semana 11</strong> - 08/10 a 11/10:
+<ul>
+<li><strong>aula 19</strong>: (6) Variáveis aleatórias contínuas</li>
+<li><strong>aula 20</strong>: Exercícios.</li>
+</ul></li>
+<li><strong>Semana 13</strong> - 15/10 a 20/10:
+<ul>
+<li><strong>aula 21</strong>: Revisão.</li>
+<li><strong>aula 22</strong>:</li>
+</ul></li>
+<li><strong>Semana 14</strong> - 22/10 a 27/10:
+<ul>
+<li><strong>aula 23</strong>: <strong>Avaliação 1</strong> (Cap. 1 a 6)</li>
+<li><strong>aula 24</strong>: (7) Inferência estatística - estimação (A): propriedades e distribuições amostrais. por intervalo.</li>
+</ul></li>
+<li><strong>Semana 13</strong>: 29/10 a 01/11:
+<ul>
+<li><strong>aula 25</strong>: Exercícios</li>
+<li><strong>aula 26</strong>: <strong>S6</strong></li>
+</ul></li>
+<li><strong>Semana 14</strong> - 05/11 a 09/11:
+<ul>
+<li><strong>aula 27</strong>: (7) Inferência estatística - estimação (B): estimação</li>
+<li><strong>aula 28</strong>: (8) Inferência estatística - testes de hipótese.</li>
+</ul></li>
+<li><strong>Semana 15</strong> - 12/11 a 14/11:
+<ul>
+<li><strong>aula 29</strong>: Exercícios.</li>
+<li><strong>aula 30</strong>: <strong>(S7)</strong></li>
+</ul></li>
+<li><strong>Semana 16</strong> - 19/11 a 24/11
+<ul>
+<li><strong>aula 31</strong>: (9) Tópicos especiais.</li>
+<li><strong>aula 32</strong>: Exercícios. <strong>S8</strong></li>
+</ul></li>
+<li><strong>Semana 17</strong> - 26/11 a 01/12
+<ul>
+<li><strong>aula 33</strong>: Revisão</li>
+<li><strong>aula 34</strong>: <strong>Avaliação 2</strong></li>
+</ul></li>
+<li><strong>Semana 19</strong>: 10/12 a 15/12:
+<ul>
+<li><strong>Exame final</strong></li>
+</ul></li>
+</ul>
+</div>
 
 <center>
   <hr width="100%" size="3px">
