@@ -66,10 +66,10 @@ sofrer alterações).
     - **aula 29**: **S7**
     - **aula 30**: (9) Tópicos especiais. Exercícios.
 - **Semana 16** - 19/11 a 24/11
-    - **aula 31**: Exercícios. 
-    - **aula 32**: **S8**
+    - **aula 31**: --
+    - **aula 32**: **S8** (entrege para resolver em casa)
 - **Semana 17** - 26/11 a 01/12
-    - **aula 33**: Revisão
+    - **aula 33**: sem aula devido ao vestibular
     - **aula 34**: **Avaliação 2**
 
 - **Semana 19**: 10/12 a 15/12:
