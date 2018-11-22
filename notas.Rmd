@@ -16,5 +16,9 @@ source("setup_knitr.R")
 
 ### CE003-09B-Geologia
 
+```{r notasgeologia}
+nt <- read.csv2('misc/geologia.csv')
+kable(nt[,c(1,3)], row.names = FALSE)
+```
 
 ### CE003 (39A-Nutrição) e CE009 (23A - Eng. Ambiental)
