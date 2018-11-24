@@ -18,7 +18,14 @@ source("setup_knitr.R")
 
 ```{r notasgeologia}
 nt <- read.csv2('misc/geologia.csv')
-kable(nt[,c(1,3)], row.names = FALSE)
+kable(nt[,c(1,2)], row.names = FALSE)
 ```
 
 ### CE003 (39A-Nutrição) e CE009 (23A - Eng. Ambiental)
+
+```{r notasnea}
+nt <- read.csv2('misc/NutEngAmb.csv')
+kable(nt[,c(1,2)], row.names = FALSE)
+```
+
+
