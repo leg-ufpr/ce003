@@ -28,7 +28,7 @@ nt <- read.csv2('misc/geologia.csv')
 nt$SM <- apply(as.matrix(nt)[, 4:11], 1, smf)
 nt$MediaParcial <- apply(as.matrix(nt)[c(2,3,12)], 1, mpf)
 nt$ResultParcial <- decf(nt$MediaParcial)
-kable(nt[,c(1,2)], row.names = FALSE)
+kable(nt, row.names = FALSE)
 ```
 
 ### CE003 (39A-Nutrição) e CE009 (23A - Eng. Ambiental)
