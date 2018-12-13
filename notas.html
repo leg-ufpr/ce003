@@ -389,9 +389,9 @@ $(document).ready(function () {
 <div id="ce003-09b-geologia" class="section level3">
 <h3>CE003-09B-Geologia</h3>
 <pre class="r"><code>nt &lt;- read.csv2(&#39;misc/geologia.csv&#39;)
-nt$SM &lt;- apply(as.matrix(nt[, 4:11]), 1, smf)
-nt$MediaParcial &lt;- apply(as.matrix(nt[,c(2,3,12)]), 1, mpf)
-nt$ResultParcial &lt;- decf(nt$MediaParcial)
+#nt$SM &lt;- apply(as.matrix(nt[, 4:11]), 1, smf)
+#nt$MediaParcial &lt;- apply(as.matrix(nt[,c(2,3,12)]), 1, mpf)
+#nt$ResultParcial &lt;- decf(nt$MediaParcial)
 kable(nt, row.names = FALSE)</code></pre>
 <table>
 <thead>
@@ -410,6 +410,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <th align="right">SM</th>
 <th align="right">MediaParcial</th>
 <th align="left">ResultParcial</th>
+<th align="right">Final</th>
+<th align="right">MediaFinal</th>
+<th align="left">ResFinal</th>
 </tr>
 </thead>
 <tbody>
@@ -428,6 +431,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">55.2</td>
 <td align="right">56.6</td>
 <td align="left">Final</td>
+<td align="right">65</td>
+<td align="right">60.8</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20184118</td>
@@ -442,6 +448,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">35</td>
 <td align="right">80</td>
 <td align="right">71.2</td>
+<td align="right">71.1</td>
+<td align="left">Aprovado</td>
+<td align="right">NA</td>
 <td align="right">71.1</td>
 <td align="left">Aprovado</td>
 </tr>
@@ -460,6 +469,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">19.2</td>
 <td align="right">16.6</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">16.6</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20186133</td>
@@ -474,6 +486,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">41.2</td>
+<td align="right">30.6</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">30.6</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -492,6 +507,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">71.2</td>
 <td align="right">63.1</td>
 <td align="left">Final</td>
+<td align="right">50</td>
+<td align="right">56.6</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20151534</td>
@@ -506,6 +524,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">15.6</td>
+<td align="right">7.8</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">7.8</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -524,6 +545,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">53.0</td>
 <td align="right">38.5</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">38.5</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20184113</td>
@@ -538,6 +562,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">35</td>
 <td align="right">80</td>
 <td align="right">70.0</td>
+<td align="right">71.0</td>
+<td align="left">Aprovado</td>
+<td align="right">NA</td>
 <td align="right">71.0</td>
 <td align="left">Aprovado</td>
 </tr>
@@ -556,6 +583,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">66.4</td>
 <td align="right">76.2</td>
 <td align="left">Aprovado</td>
+<td align="right">NA</td>
+<td align="right">76.2</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20184119</td>
@@ -570,6 +600,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">7.0</td>
+<td align="right">3.5</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">3.5</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -588,6 +621,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">35.4</td>
 <td align="right">30.2</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">30.2</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20184175</td>
@@ -602,6 +638,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">50</td>
 <td align="right">NA</td>
 <td align="right">18.0</td>
+<td align="right">9.0</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">9.0</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -620,6 +659,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">57.0</td>
 <td align="right">52.0</td>
 <td align="left">Final</td>
+<td align="right">20</td>
+<td align="right">36.0</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20164788</td>
@@ -636,6 +678,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">68.4</td>
 <td align="right">55.2</td>
 <td align="left">Final</td>
+<td align="right">34</td>
+<td align="right">44.6</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20184143</td>
@@ -650,6 +695,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">10.0</td>
+<td align="right">5.0</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">5.0</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -668,6 +716,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">33.2</td>
 <td align="right">26.6</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">26.6</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20184139</td>
@@ -682,6 +733,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">40.4</td>
+<td align="right">35.2</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">35.2</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -700,6 +754,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">56.2</td>
 <td align="right">61.1</td>
 <td align="left">Final</td>
+<td align="right">NA</td>
+<td align="right">30.6</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20185298</td>
@@ -714,6 +771,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">47.8</td>
+<td align="right">34.4</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">34.4</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -732,6 +792,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">0.0</td>
 <td align="right">0.0</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">0.0</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20184171</td>
@@ -746,6 +809,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">65</td>
 <td align="right">30</td>
 <td align="right">45.4</td>
+<td align="right">37.7</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">37.7</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -764,6 +830,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">0.0</td>
 <td align="right">0.0</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">0.0</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20184154</td>
@@ -780,6 +849,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">43.0</td>
 <td align="right">45.0</td>
 <td align="left">Final</td>
+<td align="right">75</td>
+<td align="right">60.0</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20186135</td>
@@ -794,6 +866,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">60</td>
 <td align="right">80</td>
 <td align="right">79.4</td>
+<td align="right">76.2</td>
+<td align="left">Aprovado</td>
+<td align="right">NA</td>
 <td align="right">76.2</td>
 <td align="left">Aprovado</td>
 </tr>
@@ -812,6 +887,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">31.0</td>
 <td align="right">30.5</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">30.5</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20186131</td>
@@ -828,6 +906,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">56.8</td>
 <td align="right">61.9</td>
 <td align="left">Final</td>
+<td align="right">60</td>
+<td align="right">61.0</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20185286</td>
@@ -842,6 +923,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">50</td>
 <td align="right">55.0</td>
+<td align="right">36.0</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">36.0</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -860,6 +944,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">0.0</td>
 <td align="right">0.0</td>
 <td align="left">Reprovado</td>
+<td align="right">NA</td>
+<td align="right">0.0</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20187099</td>
@@ -874,6 +961,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0.0</td>
+<td align="right">0.0</td>
+<td align="left">Reprovado</td>
+<td align="right">NA</td>
 <td align="right">0.0</td>
 <td align="left">Reprovado</td>
 </tr>
@@ -892,6 +982,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">59.2</td>
 <td align="right">56.1</td>
 <td align="left">Final</td>
+<td align="right">65</td>
+<td align="right">60.6</td>
+<td align="left">Aprovado</td>
 </tr>
 <tr class="odd">
 <td align="left">GRR20186878</td>
@@ -908,6 +1001,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">50.6</td>
 <td align="right">50.3</td>
 <td align="left">Final</td>
+<td align="right">35</td>
+<td align="right">42.7</td>
+<td align="left">Reprovado</td>
 </tr>
 <tr class="even">
 <td align="left">GRR20184102</td>
@@ -924,6 +1020,9 @@ kable(nt, row.names = FALSE)</code></pre>
 <td align="right">62.0</td>
 <td align="right">57.0</td>
 <td align="left">Final</td>
+<td align="right">32</td>
+<td align="right">44.5</td>
+<td align="left">Reprovado</td>
 </tr>
 </tbody>
 </table>
